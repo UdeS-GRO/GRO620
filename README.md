@@ -2,6 +2,12 @@
 
 Vous trouverez ici des fichiers Jupyter pour les activités procédurales et la résolution de la problématique.
 
+Jupyter est un environnement qui permet de combiner de la documentation en
+Markdown et des extraits de code en Python. Il est également possible d'ajouter
+des éléments interactifs pour modifier le comportement du code. De plus, GitHub
+fait un rendu (statique) des fichiers .ipynb, ce qui permet de visualiser
+rapidement le contenu de ces fichiers.
+
 Les images à utiliser pour la problématique se trouvent dans le dossier "images_prob/".
 
 ## Mise en route (Anaconda)
@@ -28,5 +34,5 @@ Un fichier de départ (très) simple est fourni pour débuter le travail: "prob.
 
 ## Activités procédurales 
 
-Pour commencer, ouvrez tout simplement "proc_1.ipynb" depuis Jupyter. Toutes les instructions s'y trouve et vous pourrez éditer directement le fichier pour résoudre les activités.
+Pour commencer, ouvrez tout simplement ["proc1_.ipynb"](proc_1.ipynb) depuis Jupyter. Toutes les instructions s'y trouve et vous pourrez éditer directement le fichier pour résoudre les activités.
 
