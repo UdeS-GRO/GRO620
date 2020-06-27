@@ -26,11 +26,13 @@ Si Anaconda ne vous propose que la version 3.4.2, vous devrez plutôt ouvrir la 
 
 ## Google Colaboratory
 
-Si vous n'arrivez pas à installer correctement Anaconda sur votre ordinateur, vous pouvez également utiliser Google Colaboratory en important le dossier au complet dans votre Google Drive à partir de GitHub directement.
+Si vous n'arrivez pas à installer correctement Anaconda sur votre ordinateur, vous pouvez également utiliser Google Colaboratory en important le dossier au complet dans votre Google Drive.
+Cependant, il est possible que vous trouviez Google Colab plus lent que Jupyter
+installé sur votre ordinateur.
 
 ## Problématique
 
-Un fichier de départ (très) simple est fourni pour débuter le travail: "prob.ipynb". Vous pouvez lancer ce calepin pour vérifier que votre installation de Jupyter fonctionne bien.
+Un fichier de départ (très) simple est fourni pour débuter le travail: ["prob.ipynb"](prob.ipynb"). Vous pouvez lancer ce calepin pour vérifier que votre installation de Jupyter fonctionne bien.
 
 ## Activités procédurales 
 
