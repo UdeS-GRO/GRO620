@@ -32,7 +32,7 @@ installé sur votre ordinateur.
 
 ## Problématique
 
-Un fichier de départ (très) simple est fourni pour débuter le travail: ["prob.ipynb"](prob.ipynb"). Vous pouvez lancer ce calepin pour vérifier que votre installation de Jupyter fonctionne bien.
+Un fichier de départ (très) simple est fourni pour débuter le travail: ["prob.ipynb"](prob.ipynb). Vous pouvez lancer ce calepin pour vérifier que votre installation de Jupyter fonctionne bien.
 
 ## Activités procédurales 
 
