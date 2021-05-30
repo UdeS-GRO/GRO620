@@ -1,4 +1,4 @@
-# GRO620 - Vision par ordinateur (S6R - APP6, E20)
+# GRO620 - Vision par ordinateur (S6R - APP6, E21)
 
 Vous trouverez ici des fichiers Jupyter pour les activités procédurales et la résolution de la problématique.
 
@@ -10,9 +10,22 @@ rapidement le contenu de ces fichiers.
 
 Les images à utiliser pour la problématique se trouvent dans le dossier "images_prob/".
 
+## Mise en route (Google Colab)
+
+Pour suivre les activités procédurales et faire la problématique, on vous suggère d'utiliser [Google Colab](https://colab.research.google.com), qui permet d'héberger un environnement complet Jupyter en plus des dépendances nécessaires à l'APP (OpenCV et matplotlib). Il existe plusieurs façons pour stocker des calepins et les utiliser dans Google Colab, mais on vous suggère d'utiliser Google Drive. Pour cela, vous devez essentiellement :
+
+ - Créer un dossier dans votre Google Drive pour l'APP
+ - Copiez tous les fichiers de ce dépôt git dans le dossier Google Drive **en respectant la structure des sous-dossiers**.
+ - Ouvrez un des calepins, par exemple "prob.ipynb".
+ - Retirez les commentaires et modifiez les trois lignes permettant d'initialiser Google Drive pour le calepin (voir les commentaires dans la deuxième cellule pour plus de détails).
+ - Lancez l'exécution (avec le menu "Exécution - Tout exécuter").
+ - Google vous demandera d'activer l'accès à votre Google Drive pour ce calepin - suivez tout simplement les instructions.
+ 
+À partir de maintenant, vous pourrez faire la totalité de votre travail depuis Google Colab, incluant la rédaction du rapport.
+
 ## Mise en route (Anaconda)
 
-Les fichiers supposent que vous utiliserez Python 3 et la librairie OpenCV version 4. Pour vous assurez d'avoir les bonnes versions, on vous suggère fortement d'installer la distribution Anaconda (faites attention de bien sélectionner l'installation pour Python 3.7 !) :
+Si vous ne souhaitez pas utiliser Google Colab et Google Drive, vous pouvez aussi installer Jupyter sur votre propre ordinateur. Les fichiers fournis supposent que vous utiliserez Python 3 et la librairie OpenCV version 4. Pour vous assurez d'avoir les bonnes versions, on vous suggère fortement d'installer la distribution Anaconda (faites attention de bien sélectionner l'installation pour Python 3.7 et plus !) :
 
 [Anaconda Individual Edition](https://www.anaconda.com/products/individual)
 
@@ -22,13 +35,8 @@ Ensuite, vous devez installer les paquets OpenCV nécessaires à l'APP. Pour cel
 
 Cochez les paquets "libopencv", "opencv" et "opencv-py". Vérifiez qu'il vous propose bien la version 4. Vous n'avez ensuite qu'à appuyez "Apply" pour installer les paquets manquants.
 
-Si Anaconda ne vous propose que la version 3.4.2, vous devrez plutôt ouvrir la console "Anaconda Prompt" puis utiliser la commmande "pip install opencv-python".
+**NOTE:** Il est possible, selon votre environnement, que les paquets n'aient pas exactement les mêmes noms. Si Anaconda ne vous propose que la version 3.4.2, vous devrez plutôt ouvrir la console "Anaconda Prompt" puis utiliser la commmande "pip install opencv-python".
 
-## Google Colaboratory
-
-Si vous n'arrivez pas à installer correctement Anaconda sur votre ordinateur, vous pouvez également utiliser Google Colaboratory en important le dossier au complet dans votre Google Drive.
-Cependant, il est possible que vous trouviez Google Colab plus lent que Jupyter
-installé sur votre ordinateur.
 
 ## Problématique
 
