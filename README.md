@@ -1,4 +1,4 @@
-# GRO620 - Vision par ordinateur (S6R - APP6, E21)
+# GRO620 - Vision par ordinateur (S6 Robotique, APP 7 E22)
 
 Vous trouverez ici des fichiers Jupyter pour les activités procédurales et la résolution de la problématique.
 
@@ -23,9 +23,9 @@ Pour suivre les activités procédurales et faire la problématique, on vous sug
  
 À partir de maintenant, vous pourrez faire la totalité de votre travail depuis Google Colab, incluant la rédaction du rapport.
 
-## Mise en route (Anaconda)
+## Mise en route (Anaconda et Jupyter)
 
-Si vous ne souhaitez pas utiliser Google Colab et Google Drive, vous pouvez aussi installer Jupyter sur votre propre ordinateur. Les fichiers fournis supposent que vous utiliserez Python 3 et la librairie OpenCV version 4. Pour vous assurez d'avoir les bonnes versions, on vous suggère fortement d'installer la distribution Anaconda (faites attention de bien sélectionner l'installation pour Python 3.7 et plus !) :
+Si vous ne souhaitez pas utiliser Google Colab et Google Drive, vous pouvez aussi installer Jupyter sur votre propre ordinateur. Les fichiers fournis supposent que vous utiliserez Python 3, la librairie OpenCV version 4 et matplotlib. Pour vous assurez d'avoir les bonnes versions, on vous suggère fortement d'installer la distribution Anaconda (faites attention de bien sélectionner l'installation pour Python 3.7 et plus !) :
 
 [Anaconda Individual Edition](https://www.anaconda.com/products/individual)
 
@@ -33,7 +33,11 @@ Ensuite, vous devez installer les paquets OpenCV nécessaires à l'APP. Pour cel
 
 ![](images_doc/anaconda-opencv.png)
 
-Cochez les paquets "libopencv", "opencv" et "opencv-py". Vérifiez qu'il vous propose bien la version 4. Vous n'avez ensuite qu'à appuyez "Apply" pour installer les paquets manquants.
+Cochez le paquet "opencv" (normalement version 4.5.5)
+
+Répétez les mêmes étapes, mais cette fois-ci pour matplotlib. 
+
+Vous n'avez ensuite qu'à appuyez "Apply" (en bas à droite) pour installer les paquets manquants.
 
 **NOTE:** Il est possible, selon votre environnement, que les paquets n'aient pas exactement les mêmes noms. Si Anaconda ne vous propose que la version 3.4.2, vous devrez plutôt ouvrir la console "Anaconda Prompt" puis utiliser la commmande "pip install opencv-python".
 
