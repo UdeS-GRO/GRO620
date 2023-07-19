@@ -1,4 +1,4 @@
-# GRO620 - Vision par ordinateur (S6 Robotique, APP 7 E22)
+# GRO620 - Vision par ordinateur (S6 Robotique, APP 7 E23)
 
 Vous trouverez ici des fichiers Jupyter pour les activités procédurales et la résolution de la problématique.
 
@@ -33,14 +33,15 @@ Ensuite, vous devez installer les paquets OpenCV nécessaires à l'APP. Pour cel
 
 ![](images_doc/anaconda-opencv.png)
 
-Cochez le paquet "opencv" (normalement version 4.5.5)
+Cochez le paquet "py-opencv" (normalement version 4.5 et plus)
 
-Répétez les mêmes étapes, mais cette fois-ci pour matplotlib. 
+Répétez les mêmes étapes, mais cette fois-ci pour matplotlib s'il n'est pas disponible. 
 
 Vous n'avez ensuite qu'à appuyez "Apply" (en bas à droite) pour installer les paquets manquants.
 
 **NOTE:** Il est possible, selon votre environnement, que les paquets n'aient pas exactement les mêmes noms. Si Anaconda ne vous propose que la version 3.4.2, vous devrez plutôt ouvrir la console "Anaconda Prompt" puis utiliser la commmande "pip install opencv-python".
 
+Finalement, pour travailler sur la problématique, on vous suggère de lancer Jupyter avec la commande "jupyter-lab" depuis ce dossier.
 
 ## Problématique
 
